@@ -1,0 +1,19 @@
+﻿datatypes:
+  - name: id
+    nullable: false
+    primary-key: true
+    platform:
+      clr: System.Int64
+      sqlserver: bigint
+  - name: name
+    platform:
+      clr: System.String
+      sqlserver: nvarchar(255)
+tables:
+  - name: entity
+    columns:
+      - name: id
+        datatype: id
+      - name: name
+        datatype: string
+        nullable: false
