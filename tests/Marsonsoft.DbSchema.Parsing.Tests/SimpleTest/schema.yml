@@ -2,11 +2,11 @@
   - name: id
     nullable: false
     primary-key: true
-    platform:
+    platforms:
       clr: System.Int64
       sqlserver: bigint
   - name: name
-    platform:
+    platforms:
       clr: System.String
       sqlserver: nvarchar(255)
 tables:
